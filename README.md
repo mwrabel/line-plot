@@ -13,17 +13,8 @@ We're going to need some external libraries, that can be easily installed from C
 library(ggplot2)
 library(reshape2)
 library(dplyr, warn.conflicts = F)
-```
-
-    ## Warning: package 'dplyr' was built under R version 3.4.2
-
-``` r
 library(ggrepel)
-```
 
-    ## Warning: package 'ggrepel' was built under R version 3.4.2
-
-``` r
 # Clearing the workspace
 rm(list = ls())
 ```
