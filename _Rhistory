@@ -1,0 +1,512 @@
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.2) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.2) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+df$lvl <- 0
+ggplot(df, aes(x = (-assisted_converted_rate), y = lvl)) +
+geom_line(colour = "#00FF00",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = lvl),
+colour = "#0000FF", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+df$lvl <- 0
+ggplot(df, aes(x = (-assisted_converted_rate), y = lvl)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = lvl),
+colour = "#0000FF", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+df$lvl <- 0
+ggplot(df, aes(x = (-assisted_converted_rate), y = lvl)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = lvl),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+#df$lvl <- 0
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text(aes(label = df[, 1],
+x = -assisted_converted_rate)) +
+#geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+#                stat = "identity",
+#                angle = 0,
+#                force = 5,
+#                max.iter = 200,
+#                box.padding = unit(2, "lines"),
+#                point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 5,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 2,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 10,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 7,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 7,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+# Loading Packages
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(ggrepel)
+# Clearing the workspace
+rm(list = ls())
+# Data input
+channels <- c("Display", "RTB", "Affiliate", "Paid Search", "Mailing", "Video", "Remarketing")
+conversions <- c(250, 220, 620, 500, 200, 180, 400)
+assisted_conversions <- c(800, 450, 200, 150, 400, 650, 100)
+# Merging into one data frame
+df <- data.frame(channels, conversions, assisted_conversions)
+# Checking class of the columns (should be "factor", "numeric", "numeric")
+sapply(df, class)
+# Converting into long format
+df_melted <- melt(df, id.vars = "channels")
+# Simple dataviz
+ggplot(df_melted, aes(x = channels, y = value, fill = variable)) +
+geom_bar(stat = "identity", position = "dodge") +
+theme_minimal()
+# Creating new variable
+df <- mutate(df, assisted_converted_rate = round(assisted_conversions / conversions, 2))
+df$assisted_converted_rate
+ggplot(df, aes(x = reorder(channels, assisted_converted_rate), y = assisted_converted_rate)) +
+geom_bar(stat = "identity") +
+theme_minimal() +
+coord_flip()
+# First take on line plot
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text(aes(label = df[, 1],
+x = -assisted_converted_rate)) +
+#geom_text_repel(aes(label = df[, 1], x = -assisted_converted_rate),
+#                stat = "identity",
+#                angle = 0,
+#                force = 5,
+#                max.iter = 200,
+#                box.padding = unit(2, "lines"),
+#                point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+# First take on line plot
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text(aes(label = df[, 1],
+x = -assisted_converted_rate)) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+# First take on line plot
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text(aes(label = channels,
+x = -assisted_converted_rate)) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = channels, x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 7,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+n = 100
+g = 6
+set.seed(g)
+d <- data.frame(x = unlist(lapply(1:g, function(i) rnorm(n/g, runif(1)*i^2))),
+y = unlist(lapply(1:g, function(i) rnorm(n/g, runif(1)*i^2))))
+plot(d)
+library(fpc)
+install.packages("fpc")
+library(fpc)
+pamk.best <- pamk(d)
+pamk.best
+cat("number of clusters estimated by optimum average silhouette width:", pamk.best$nc, "\n")
+plot(pam(d, pamk.best$nc))
+?pam
+library(cluster)
+plot(pam(d, pamk.best$nc))
+require(vegan)
+install.packages("vegan")
+require(vegan)
+fit <- cascadeKM(scale(d, center = TRUE,  scale = TRUE), 1, 10, iter = 1000)
+plot(fit, sortg = TRUE, grpmts.plot = TRUE)
+calinski.best <- as.numeric(which.max(fit$results[2,]))
+cat("Calinski criterion optimal number of clusters:", calinski.best, "\n")
+# Loading Packages
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(ggrepel)
+# Clearing the workspace
+rm(list = ls())
+# Loading Packages
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(ggrepel)
+# Clearing the workspace
+rm(list = ls())
+?library
+# Loading Packages
+library(ggplot2)
+library(reshape2)
+library(dplyr, warn.conflicts = F)
+library(ggrepel)
+# Clearing the workspace
+rm(list = ls())
+# Data input
+channels <- c("Display", "RTB", "Affiliate", "Paid Search", "Mailing", "Video", "Remarketing")
+conversions <- c(250, 220, 620, 500, 200, 180, 400)
+assisted_conversions <- c(800, 450, 200, 150, 400, 650, 100)
+# Merging into one data frame
+df <- data.frame(channels, conversions, assisted_conversions)
+# Checking class of the columns (should be "factor", "numeric", "numeric")
+sapply(df, class)
+# Converting into long format
+df_melted <- melt(df, id.vars = "channels")
+# Simple dataviz
+ggplot(df_melted, aes(x = channels, y = value, fill = variable)) +
+geom_bar(stat = "identity", position = "dodge") +
+theme_minimal()
+# Creating new variable
+df <- mutate(df, assisted_converted_rate = round(assisted_conversions / conversions, 2))
+df$assisted_converted_rate
+# Better visualisation
+ggplot(df, aes(x = reorder(channels, assisted_converted_rate), y = assisted_converted_rate)) +
+geom_bar(stat = "identity") +
+theme_minimal() +
+coord_flip()
+# First take on line plot
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text(aes(label = channels,
+x = -assisted_converted_rate)) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "green",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "blue", size = 4) +
+geom_text_repel(aes(label = channels, x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 7,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+# First take on line plot
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "#379392",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "#4F86C6", size = 4) +
+geom_text(aes(label = channels,
+x = -assisted_converted_rate)) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2.1) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2.1) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
+ggplot(df, aes(x = (-assisted_converted_rate), y = 0)) +
+geom_line(colour = "#379392",
+size = 1) +
+geom_point(data = df,
+aes(x = -assisted_converted_rate, y = 0),
+colour = "#4F86C6", size = 4) +
+geom_text_repel(aes(label = channels, x = -assisted_converted_rate),
+stat = "identity",
+angle = 0,
+force = 7,
+max.iter = 200,
+box.padding = unit(2, "lines"),
+point.padding = NA) +
+annotate("text", x = max(-df$assisted_converted_rate), y = 0, label = "CONVERTING", hjust = 1, vjust = 2) +
+annotate("text", x = min(-df$assisted_converted_rate), y = 0, label = "ASSISTING", hjust = 0, vjust = 2) +
+theme_minimal() +
+theme(panel.grid = element_blank(),
+axis.text = element_blank(),
+axis.title = element_blank())
